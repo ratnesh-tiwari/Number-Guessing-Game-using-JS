@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+    </style>
+    <title>Guess Number!</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <button class="btn again">Again!</button>
+      <p class="message__text">&lt;Enter Number Betweet 1 to 20!&gt;</p>
+    </nav>
+    <h1 class="heading--primary">Guess Number?</h1>
+    <div class="divider--container">
+      <p class="number--real--value">?</p>
+    </div>
+    <div class="container">
+      <div class="left">
+        <input type="number" class="input" />
+        <button class="btn check">Check!</button>
+      </div>
+      <div class="right">
+        <p class="heading--secondary">Start guessing...</p>
+        <p class="score">💯 Score: <span class="realtime--score">20</span></p>
+        <p>🥇 Highscore: <span class="high--score">20</span></p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
